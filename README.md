@@ -1,4 +1,4 @@
-Sainsbyrys Technical Test
+Technical Test
 
 Getting Started
 
