@@ -8,7 +8,7 @@ from libparser import parse_csv
 
 class DefaultHelpParser(argparse.ArgumentParser):
 	def error(self, message):
-		sys.stderr.write('error: {}\n',format( message))
+		sys.stderr.write('error: {}\n'.format( message))
 		self.print_help()
 		sys.exit(2)
 
